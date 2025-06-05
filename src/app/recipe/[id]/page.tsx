@@ -1,4 +1,4 @@
-import RecipeDetail from '../../components/RecipeDetail/RecipeDetail';
+import RecipeDetail from '../../../components/RecipeDetail/RecipeDetail';
 
 interface PageProps {
   params: {

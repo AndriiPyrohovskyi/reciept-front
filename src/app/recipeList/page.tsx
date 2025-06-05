@@ -1,3 +1,4 @@
+"use client";
 import { useSearchParams } from 'next/navigation';
 import RecipeList from '../../components/RecipeList/RecipeList';
 import Link from 'next/link';
