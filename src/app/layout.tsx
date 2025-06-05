@@ -1,5 +1,10 @@
 import "./globals.css";
 
+export const metadata = {
+  title: 'Recipe Book',
+  description: 'Discover amazing recipes from around the world',
+}
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -8,7 +13,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        {children}
+        <div className="min-h-screen bg-gray-50">
+          {children}
+        </div>
       </body>
     </html>
   );
